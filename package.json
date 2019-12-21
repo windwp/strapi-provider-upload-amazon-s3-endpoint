@@ -1,0 +1,36 @@
+{
+  "name": "strapi-provider-upload-aws-s3-webp",
+  "version": "3.0.0-beta.17.8",
+  "description": "Strapi AWS S3 Provider that also generates and uploads a WebP.",
+  "license": "MIT",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "strapi",
+    "upload",
+    "aws",
+    "s3",
+    "webp"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "^2.548.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "longtrieu.ls@live.com",
+    "name": "windwp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:windwp/strapi-provider-upload-amazon-s3-endpoint.git"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  }
+}
